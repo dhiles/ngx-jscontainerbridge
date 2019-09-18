@@ -1,0 +1,12 @@
+{
+  "name": "ngx-jscontainerbridge",
+  "author": {
+    "name": "Douglas Hiles"
+  },
+  "license": "MIT",
+  "version": "1.0.0-rc1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.0",
+    "@angular/core": "^8.0.0"
+  }
+}
