@@ -70,11 +70,6 @@ Communcation between the angular app and js pages is set up by creating a global
 
 When a method is called on APP it now is routed to the angular code which can run in the angular zone. 
 
-## Online Demo
-
-http://seatoskysoft.com/ngx-jscontainerbridge-demo/
-
-  
 
 ## Source code
 
