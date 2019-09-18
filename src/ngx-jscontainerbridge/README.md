@@ -89,59 +89,6 @@ npm run demo
 
   
 
-## release info
-
-### 1.1.3
-
-- added gestures for mobile sensitive devices. Touch gesture triggers a pan which allows for repositioning of grid items. Press followed by a pan gesture allows resizing of grid items.
-
-### 1.1.4
-
-- fix README.md
-
-### 1.1.5
-
-- fix README.md
-
-### 1.1.6
-
-- resize on media query breakpoint changes
-
-### 1.1.9
-
-- custom icons in panel header
-
-### 1.1.10
-
-- add panel minimize/maximize
-- itemUpdateEmitter lanePosition paramter for add 
-
-### 1.1.11
-
-- fix icon header alignment
-- set non-maximized panels to hidden on maximize  
-- emit resize events when resizing 
-
-### 1.1.12
-
-- fix npm security violation in tar node pkg version by setting node-gyp version 4.0.0 
-- fix bug with not passing toolbaritem to ifFunction
-- add mutexMinMaxIcons option to remove or disable minimize icon when panel is not maximized and remove or disable maximize icon when panel is maximized
-- add description field to panel item to display description tooltip on title
-
-### 1.1.13
-
-- when make sure all panels are visible by decrementing lane count when a panel is covered (rather than scrolling) and triggering a responsive lane count update when a full row or column is visible  
-
-### 1.1.14
-
-- throttle mouse events
-- fix npm security violation by setting querystringify to version 2.1.1
-- add responsiveBreakpoints and gridContainer width and height options
-
-### 1.1.14
-- upgrade to angular 8
-
 
 ## Author
 

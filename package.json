@@ -4,7 +4,7 @@
     "name": "Douglas Hiles"
   },
   "license": "MIT",
-  "version": "1.0.0-rc1",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve --port 4100 --open",
