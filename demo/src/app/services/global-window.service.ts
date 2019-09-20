@@ -1,17 +1,6 @@
 import { Injectable, Inject, NgZone } from '@angular/core';
-import { WINDOW, WindowRef } from 'ngx-jscontainerbridge';
-import { ApplicationManager } from './application-manager.service';
-
-type CallbackFunctionVariadicAnyReturn = (...args: any[]) => any;
-
-
-export class AppGlobal {
-  applicationManager?: ApplicationManager;
-}
-
-export interface WindowGlobal {
-  APP: AppGlobal;
-}
+import { WINDOW } from 'ngx-jscontainerbridge';
+import { AppGlobal, WindowGlobal } from '../interfaces/WindowGlobal.interface'
 
 @Injectable({
   providedIn: 'root'
