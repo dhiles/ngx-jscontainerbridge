@@ -13,7 +13,7 @@ export const routes: Routes = [
         path: 'about',
         component: AboutComponent
     },
-    { path: 'js/:term', component: ContentContainerComponent },
+    { path: 'jscontainer/:term', component: ContentContainerComponent },
     {
         path: '',
         redirectTo: '/home',
