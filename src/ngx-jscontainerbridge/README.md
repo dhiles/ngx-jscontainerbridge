@@ -131,6 +131,10 @@ npm run demo
 - create WindowGlobal interface to fix circular dependencies   
 - fix readme 
 
+### 1.0.4
+ 
+- fix readme 
+
 ## Author
 
   
@@ -148,8 +152,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
   
 
-## Acknowledgments
-
-  
-
-* the gridList layout engine is based on the hootsuite GridList
